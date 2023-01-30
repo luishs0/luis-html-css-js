@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* ---------- ESERCIZIO 1 2 3 ---------- */
+
 .general-container {
     min-width: 300px;
     text-align: center;
@@ -39,4 +41,15 @@
 
 .green {
     background-color: green;
+}
+
+
+/* ---------- ESERCIZIO 4 ---------- */
+
+.table-container {
+    padding: 1rem;
+}
+
+.table-4 {
+    border: 2px solid black;
 }
