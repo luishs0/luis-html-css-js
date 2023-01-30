@@ -53,3 +53,10 @@
 .table-4 {
     border: 2px solid black;
 }
+
+.table-4 tr th,
+.table-4 tr td {
+    border: 1px solid red;
+    background-color: green;
+    color: white;
+}
