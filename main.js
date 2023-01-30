@@ -1,3 +1,4 @@
+// ESERCIZIO 1 2 E 3
 
 //Prendo il bottone e il div:
 const btn = document.getElementById("btn");
@@ -18,3 +19,20 @@ function toGreen(element) {
         element.classList.add("red");
     }
 };
+
+
+// ESERCIZIO 6 - Con funzione JQuery
+
+$("#new-btn").click(function () {
+
+    $("#btn").attr("disabled", true);
+
+});
+
+$("#new-btn-2").click(function () {
+
+    $("#btn").attr("disabled", false);
+
+});
+
+
