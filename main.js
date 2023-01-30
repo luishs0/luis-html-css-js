@@ -8,8 +8,13 @@ btn.addEventListener("click", function () {
     toGreen(div);
 });
 
-// Funzione per fare diventare verde lo sfondo di un elemento:
+// Funzione per cambiare il colore:
 function toGreen(element) {
-    element.classList.remove("red");
-    element.classList.add("green");
+    if (element.classList.contains("red")) {
+        element.classList.remove("red");
+        element.classList.add("green");
+    } else {
+        element.classList.remove("green");
+        element.classList.add("red");
+    }
 };
